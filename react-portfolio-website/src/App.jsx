@@ -1,4 +1,5 @@
 import React from 'react'
+import { Analytics } from '@vercel/analytics/react';
 import Header from './components/header/Header.jsx'
 import Nav from './components/nav/Nav.jsx'
 import About from './components/about/About.jsx'
@@ -12,6 +13,7 @@ import Footer from './components/footer/Footer.jsx'
 const App = () => {
   return (
     <>
+      <Analytics />
       <Header/ >
       <Nav/ >
       <About/ >
