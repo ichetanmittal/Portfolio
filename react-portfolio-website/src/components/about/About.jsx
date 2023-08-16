@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/me1.jpg'
 import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
+// import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
 
@@ -27,11 +27,11 @@ const About = () => {
                 <small>2+ yeaers into Blockchain space</small>
             </article>
 
-            <article className='about__card'>
+            {/* <article className='about__card'>
             <FiUsers className='about__icon'/>
                 <h5>Clients</h5>
                 <small>10+ Over India</small>
-            </article>
+            </article> */}
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
@@ -41,9 +41,9 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam libero, dolores excepturi pariatur qui architecto voluptates deserunt consequatur maxime doloremque voluptatum quas commodi, quidem quisquam ratione quia et veniam quam.
-            Quis vel ullam illum reprehenderit eligendi corporis repellendus ea similique iusto officia corrupti, nostrum tenetur nesciunt repudiandae odit molestiae commodi, nihil repellat omnis voluptatem? Vero quo corrupti blanditiis velit reiciendis!  
+            Hola , I am Currently Pursuing Bachelors in Information Technology at NIT Jalandhar. My Core interests lie in the Blockchain and Web3 Technology. My Passion has already led me into two web3 based sartups. Currently building projects on the concept of Creator Economy, in challenge to today's highly centralised world. Latest project being CDAO.
           </p>
+          <p>#WAGMI #buildwithCDAO </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
