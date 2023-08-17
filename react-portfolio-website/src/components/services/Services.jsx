@@ -45,7 +45,6 @@ const Services = () => {
             </li>
           </ul>  
         </article>
-        {/* END OF UI/UX */}
         <article className='service'>
           <div className='service__head'>
             <h3>Web Development</h3>
