@@ -10,70 +10,63 @@ const Experience = () => {
 
       <div className='container experience__container'>
         <div className='experience__frontend'>
-          <h3>Front End Development</h3>
+          <h3></h3>
           <div className='experience__content'>
             <article className='experience__details'>
                   <BsPatchCheckFill className='experience__details-icon'/>
                   <div>
-                  <h4>HTML</h4>
-                  <small className='text-light'>Experienced</small>
+                  <h4>SHARDEUM</h4>
+                  <small className='text-light'>Intern</small>
                   </div>
             </article>
             <article className='experience__details'>
                   <BsPatchCheckFill className='experience__details-icon'/>
                   <div>
-                  <h4>CSS</h4>
-                  <small className='text-light'>Intermediate</small>
+                  <h4>Building CDAO</h4>
+                  <small className='text-light'>Contributor & Moderator</small>
                   </div>
             </article>
             <article className='experience__details'>
                   <BsPatchCheckFill className='experience__details-icon'/>
                   <div>
-                  <h4>JS</h4>
-                  <small className='text-light'>Intermediate</small>
+                  <h4>Y-Combinator</h4>
+                  <small className='text-light'>Startup School</small>
                   </div>
             </article>
             <article className='experience__details'>
                   <BsPatchCheckFill className='experience__details-icon'/>
                   <div>
-                  <h4>React.JS</h4>
-                  <small className='text-light'>Intermediate</small>
-                  </div>
-            </article>
-            <article className='experience__details'>
-                  <BsPatchCheckFill className='experience__details-icon'/>
-                  <div>
-                  <h4>Bootstrap</h4>
-                  <small className='text-light'>Experienced</small>
+                  <h4>GSSoC</h4>
+                  <small className='text-light'>Contributor</small>
                   </div>
             </article>
           </div>
         </div>
         <div className='experience__backend'>
-          <h3>Blockchain , Tools & Utilities</h3>
+          {/* <h3>Blockchain , Tools & Utilities</h3> */}
           <div className='experience__content'>
             <article className='experience__details'>
                   <BsPatchCheckFill className='experience__details-icon'/>
                   <div>
-                  <h4>Solidity</h4>
-                  <small className='text-light'>Intermediate</small>
+                  <h4>E-Cell (NITJ)</h4>
+                  <small className='text-light'>Junior Web-Developer</small>
                   </div>
             </article>
             <article className='experience__details'>
                   <BsPatchCheckFill className='experience__details-icon'/>
                   <div>
-                  <h4>MOTOKO</h4>
-                  <small className='text-light'>Begineer</small>
+                  <h4>WDMC (NITJ)</h4>
+                  <small className='text-light'>Web Development</small>
                   </div>
             </article>
             <article className='experience__details'>
                   <BsPatchCheckFill className='experience__details-icon'/>
                   <div>
-                  <h4>Vercel , Hardhat</h4>
-                  <small className='text-light'>Experienced</small>
+                  <h4>ICP Blockchain</h4>
+                  <small className='text-light'>CA</small>
                   </div>
             </article>
-            <article className='experience__details'>
+            {/* <article className='experience__details'>
                   <BsPatchCheckFill className='experience__details-icon'/>
                   <div>
                   <h4>GIT/Github</h4>
@@ -86,7 +79,7 @@ const Experience = () => {
                   <h4>SOLIDITY</h4>
                   <small className='text-light'>Experienced</small>
                   </div>
-            </article>
+            </article> */}
           </div>
         </div>
       </div>

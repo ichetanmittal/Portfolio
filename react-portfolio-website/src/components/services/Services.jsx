@@ -11,109 +11,89 @@ const Services = () => {
       <div className='container services__container'>
         <article className='service'>
           <div className='service__head'>
-            <h3>UI/UX</h3>
+            <h3>FrontEnd</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem fbiu dfivbjk sfdocbibv</p>
+              <p>HTML5 (Advanced)</p>
             </li>
             <li>
+              <BiCheck className='service__list-icon'/>
+              <p>CSS (Intermediate)</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>JS (Intermediate)</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>React.JS (Intermediate)</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Bootstrap (Advanced)</p>
+            </li>
+            {/* <li>
               <BiCheck className='service__list-icon'/>
               <p>Lorem fbiu dfivbjk sfdocbibv</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>Lorem fbiu dfivbjk sfdocbibv</p>
+            </li> */}
+          </ul>  
+        </article>
+        <article className='service'>
+          <div className='service__head'>
+            <h3>Backend & Databases</h3>
+          </div>
+
+          <ul className='service__list'>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Npm & Express (Beginner)</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem fbiu dfivbjk sfdocbibv</p>
+              <p>Typescript (Beginner)</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem fbiu dfivbjk sfdocbibv</p>
+              <p>Database - Mongo & MySQL (Beginner)</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem fbiu dfivbjk sfdocbibv</p>
+              <p>Motoko (Beginner)</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem fbiu dfivbjk sfdocbibv</p>
+              <p>Solidity(Expert)</p>
             </li>
           </ul>  
         </article>
         <article className='service'>
           <div className='service__head'>
-            <h3>Web Development</h3>
+            <h3>Language , Tools & Utilities</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem fbiu dfivbjk sfdocbibv</p>
+              <p>Git/Github (Advanced)</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem fbiu dfivbjk sfdocbibv</p>
+              <p>Vercel , Hardhat</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem fbiu dfivbjk sfdocbibv</p>
+              <p>C++(Beginner)</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem fbiu dfivbjk sfdocbibv</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem fbiu dfivbjk sfdocbibv</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem fbiu dfivbjk sfdocbibv</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem fbiu dfivbjk sfdocbibv</p>
-            </li>
-          </ul>  
-        </article>
-        <article className='service'>
-          <div className='service__head'>
-            <h3>Marketing & Content Creation</h3>
-          </div>
-
-          <ul className='service__list'>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem fbiu dfivbjk sfdocbibv</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem fbiu dfivbjk sfdocbibv</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem fbiu dfivbjk sfdocbibv</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem fbiu dfivbjk sfdocbibv</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem fbiu dfivbjk sfdocbibv</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem fbiu dfivbjk sfdocbibv</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem fbiu dfivbjk sfdocbibv</p>
+              <p>Python (Intermediate)</p>
             </li>
           </ul>  
         </article>
