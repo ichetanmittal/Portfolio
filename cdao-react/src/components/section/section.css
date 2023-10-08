@@ -1,0 +1,38 @@
+.section-divider{
+    display: block;
+    cursor: default;
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    color: #e0e0e0;
+    /* border-top: .5px solid #9e9e9e;
+    border-bottom: .5px solid #9e9e9e; */
+    font-size: var(--fontSizes-xl);
+    line-height: 100px;
+    /* box-shadow: 0 2.5px 5spx 0 rgba(33, 33, 33, 0.5); */
+    overflow: hidden;
+  }
+  .section-divider span{
+    padding: 0 25px;
+      word-spacing: 2.5px;
+    }
+    .section-divider span > i{
+      padding: 0 20px;
+      font-size: var(--fontSizes-xl);
+    }
+
+
+    @keyframes scroll {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+    }
+    
+    .marquee {
+      white-space: nowrap;
+      animation: scroll 15s linear infinite;
+    }
+    
