@@ -53,7 +53,7 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Npm & Express (Beginner)</p>
+              <p>Node & Express (Beginner)</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
