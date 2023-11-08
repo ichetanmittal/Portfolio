@@ -17,23 +17,15 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>HTML5 (Advanced)</p>
+              <p>HTML5, CSS , JS (Advanced)</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>CSS (Intermediate)</p>
+              <p>React.JS (NEXT.JS)(Intermediate)</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>JS (Intermediate)</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>React.JS (Intermediate)</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Bootstrap (Advanced)</p>
+              <p>Bootstrap , Typescript(Advanced)</p>
             </li>
             {/* <li>
               <BiCheck className='service__list-icon'/>
