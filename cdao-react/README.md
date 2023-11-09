@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# CDAO: College Decentralised Autonomous Organisation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the CDAO-Site repository! This project aims to build the website presence of CDAO. This readme provides an overview of the repository and guidelines for contributing to the project.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [About the Project](#about-the-project)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Code of Conduct](#code-of-conduct)
+- [Contact](#contact)
 
-### `npm start`
+## About the Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The CDAO-Site project aims to create a website for the CDAO, serving as a platform to share information, resources, and event updates related to the org. The website will provide a user-friendly interface, enabling visitors to learn more about the organization and access valuable content.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To get started with the CDAO-site, follow the steps below.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   git clone https://github.com/c-d-a-o/cdao-site.git
+   ```
+2. Navigate to the project directory:
 
-### `npm run eject`
+   ```bash
+   cd cdao-site
+   ```
+3. Install the dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm install
+   ```
+Congratulations! You have successfully set up the project on your local machine.
+   
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To start the development server, use the following command:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm start
+```
+This will launch the website locally, and you can view it by opening `http://localhost:[port]` in your web browser.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributing
 
-## Learn More
+We welcome contributions from everyone who is interested in improving the CDAO-Site project. To contribute, please follow these steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Fork the repository.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Create a new branch with a descriptive name:
 
-### Code Splitting
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Make your changes, adding new features or fixing bugs.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Commit your changes:
 
-### Analyzing the Bundle Size
+   ```bash
+   git commit -m "Add your commit message here"
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. Push your branch to your forked repository:
 
-### Making a Progressive Web App
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+Open a pull request against the `main` branch of the original repository. Provide a clear and concise description of your changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Once your pull request is submitted, it will be reviewed by the project maintainers. Thank you for contributing!
 
-### Advanced Configuration
+## Code of Conduct
+We expect all contributors to follow the Code of Conduct while participating in this project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contact
+If you have any questions or suggestions regarding the CDAO-Site project, please feel free to open an issue or contact the project maintainers:
 
-### Deployment
+Maintainers: 
+      [Aman Chandra](https://github.com/acdevs), 
+      [Chetan Mittal](https://github.com/ichetanmittal), 
+      [Arnav Anand](https://github.com/capy-on-caffeine)
+      
+We appreciate your interest in the project and your valuable contributions!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
