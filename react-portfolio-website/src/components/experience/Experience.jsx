@@ -10,13 +10,19 @@ const Experience = () => {
 
       <div className='container experience__container'>
         <div className='experience__frontend'>
-          <h3></h3>
           <div className='experience__content'>
+          <article className='experience__details'>
+                  <BsPatchCheckFill className='experience__details-icon'/>
+                  <div>
+                  <h4>ICP - Hub North America</h4>
+                  <small className='text-light'>DevRel</small>
+                  </div>
+            </article>
             <article className='experience__details'>
                   <BsPatchCheckFill className='experience__details-icon'/>
                   <div>
                   <h4>SHARDEUM</h4>
-                  <small className='text-light'>Intern</small>
+                  <small className='text-light'>Devrel Intern</small>
                   </div>
             </article>
             <article className='experience__details'>
@@ -31,13 +37,6 @@ const Experience = () => {
                   <div>
                   <h4>Y-Combinator</h4>
                   <small className='text-light'>Startup School</small>
-                  </div>
-            </article>
-            <article className='experience__details'>
-                  <BsPatchCheckFill className='experience__details-icon'/>
-                  <div>
-                  <h4>GSSoC</h4>
-                  <small className='text-light'>Contributor</small>
                   </div>
             </article>
           </div>
@@ -62,24 +61,10 @@ const Experience = () => {
             <article className='experience__details'>
                   <BsPatchCheckFill className='experience__details-icon'/>
                   <div>
-                  <h4>ICP Blockchain</h4>
-                  <small className='text-light'>CA</small>
+                  <h4>GDSC (NITJ)</h4>
+                  <small className='text-light'>Web3 Core Team</small>
                   </div>
             </article>
-            {/* <article className='experience__details'>
-                  <BsPatchCheckFill className='experience__details-icon'/>
-                  <div>
-                  <h4>GIT/Github</h4>
-                  <small className='text-light'>Experienced</small>
-                  </div>
-            </article>
-            <article className='experience__details'>
-                  <BsPatchCheckFill className='experience__details-icon'/>
-                  <div>
-                  <h4>SOLIDITY</h4>
-                  <small className='text-light'>Experienced</small>
-                  </div>
-            </article> */}
           </div>
         </div>
       </div>
